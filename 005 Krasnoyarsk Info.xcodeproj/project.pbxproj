@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45BC1AA1FBAC68C00E080AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC1A91FBAC68C00E080AD /* AppDelegate.swift */; };
+		C45BC1AC1FBAC68C00E080AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BC1AB1FBAC68C00E080AD /* ViewController.swift */; };
+		C45BC1AF1FBAC68C00E080AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45BC1AD1FBAC68C00E080AD /* Main.storyboard */; };
+		C45BC1B11FBAC68C00E080AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45BC1B01FBAC68C00E080AD /* Assets.xcassets */; };
+		C45BC1B41FBAC68C00E080AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45BC1B21FBAC68C00E080AD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C45BC1A61FBAC68C00E080AD /* 005 Krasnoyarsk Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "005 Krasnoyarsk Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45BC1A91FBAC68C00E080AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C45BC1AB1FBAC68C00E080AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C45BC1AE1FBAC68C00E080AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45BC1B01FBAC68C00E080AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45BC1B31FBAC68C00E080AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45BC1B51FBAC68C00E080AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45BC1A31FBAC68C00E080AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45BC19D1FBAC68C00E080AD = {
+			isa = PBXGroup;
+			children = (
+				C45BC1A81FBAC68C00E080AD /* 005 Krasnoyarsk Info */,
+				C45BC1A71FBAC68C00E080AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45BC1A71FBAC68C00E080AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45BC1A61FBAC68C00E080AD /* 005 Krasnoyarsk Info.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45BC1A81FBAC68C00E080AD /* 005 Krasnoyarsk Info */ = {
+			isa = PBXGroup;
+			children = (
+				C45BC1BB1FBB162700E080AD /* SupportFiles */,
+				C45BC1AB1FBAC68C00E080AD /* ViewController.swift */,
+				C45BC1AD1FBAC68C00E080AD /* Main.storyboard */,
+				C45BC1B51FBAC68C00E080AD /* Info.plist */,
+			);
+			path = "005 Krasnoyarsk Info";
+			sourceTree = "<group>";
+		};
+		C45BC1BB1FBB162700E080AD /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C45BC1A91FBAC68C00E080AD /* AppDelegate.swift */,
+				C45BC1B01FBAC68C00E080AD /* Assets.xcassets */,
+				C45BC1B21FBAC68C00E080AD /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45BC1A51FBAC68C00E080AD /* 005 Krasnoyarsk Info */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45BC1B81FBAC68C00E080AD /* Build configuration list for PBXNativeTarget "005 Krasnoyarsk Info" */;
+			buildPhases = (
+				C45BC1A21FBAC68C00E080AD /* Sources */,
+				C45BC1A31FBAC68C00E080AD /* Frameworks */,
+				C45BC1A41FBAC68C00E080AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "005 Krasnoyarsk Info";
+			productName = "005 Krasnoyarsk Info";
+			productReference = C45BC1A61FBAC68C00E080AD /* 005 Krasnoyarsk Info.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45BC19E1FBAC68C00E080AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Denis Ganevitch";
+				TargetAttributes = {
+					C45BC1A51FBAC68C00E080AD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C45BC1A11FBAC68C00E080AD /* Build configuration list for PBXProject "005 Krasnoyarsk Info" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45BC19D1FBAC68C00E080AD;
+			productRefGroup = C45BC1A71FBAC68C00E080AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45BC1A51FBAC68C00E080AD /* 005 Krasnoyarsk Info */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45BC1A41FBAC68C00E080AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45BC1B41FBAC68C00E080AD /* LaunchScreen.storyboard in Resources */,
+				C45BC1B11FBAC68C00E080AD /* Assets.xcassets in Resources */,
+				C45BC1AF1FBAC68C00E080AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45BC1A21FBAC68C00E080AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45BC1AC1FBAC68C00E080AD /* ViewController.swift in Sources */,
+				C45BC1AA1FBAC68C00E080AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C45BC1AD1FBAC68C00E080AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45BC1AE1FBAC68C00E080AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45BC1B21FBAC68C00E080AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45BC1B31FBAC68C00E080AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C45BC1B61FBAC68C00E080AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C45BC1B71FBAC68C00E080AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45BC1B91FBAC68C00E080AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G923V6UNR8;
+				INFOPLIST_FILE = "005 Krasnoyarsk Info/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "idc.-05-Krasnoyarsk-Info";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C45BC1BA1FBAC68C00E080AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G923V6UNR8;
+				INFOPLIST_FILE = "005 Krasnoyarsk Info/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "idc.-05-Krasnoyarsk-Info";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45BC1A11FBAC68C00E080AD /* Build configuration list for PBXProject "005 Krasnoyarsk Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45BC1B61FBAC68C00E080AD /* Debug */,
+				C45BC1B71FBAC68C00E080AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45BC1B81FBAC68C00E080AD /* Build configuration list for PBXNativeTarget "005 Krasnoyarsk Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45BC1B91FBAC68C00E080AD /* Debug */,
+				C45BC1BA1FBAC68C00E080AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45BC19E1FBAC68C00E080AD /* Project object */;
+}
